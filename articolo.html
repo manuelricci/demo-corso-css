@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Il sito di Manuel</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Podkova&family=Poppins:wght@400;700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body class="article">
+	<a href="#contenuto" class="sr-only sr-only-focusable">Vai al contenuto</a>
+	<header class="site-header">
+		<a href="/index.html" aria-label="home">
+			<img src="images/logo-placeholder.png" alt="logo" width="150" height="60" />
+		</a>
+		<a href="#principale" class="menu-toggle" aria-label="Apri il menu principale" aria-controls="principale"
+			aria-expanded="false">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+				class="w-6 h-6" aria-hidden="true" width="24" height="24">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+			</svg>
+		</a>
+		<nav aria-label="principale" id="principale" class="main-menu">
+			<header class="only-mobile">
+				<a href="#principale" class="menu-toggle" aria-label="Chiudi il menu principale" aria-controls="principale"
+					aria-expanded="false">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+						stroke="currentColor" class="w-6 h-6" width="24" height="24">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</a>
+			</header>
+			<ul class="no-style">
+				<li><a href="#">Categoria 1</a></li>
+				<li><a href="#">Categoria 2</a></li>
+				<li><a href="#">Contatti</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<aside class="sidebar">
+		<div class="widget not-on-mobile">
+			<nav aria-labelledby="indice-contenuti" class="toc">
+				<h2 id="indice-contenuti">Indice dei contenuti</h2>
+				<ul class="no-style">
+					<li><a href="#lorem-1">Lorem 1</a></li>
+					<li><a href="#lorem-2">Lorem 2</a></li>
+					<li><a href="#lorem-3">Lorem 3</a></li>
+					<li><a href="#lorem-4">Lorem 4</a></li>
+					<li><a href="#lorem-5">Lorem 5</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="widget">
+			<h2>Iscriviti alla newsletter</h2>
+			<form action="">
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" id="nome" pattern="[a-zA-Z\s]+" required />
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required />
+				<input type="checkbox" name="privacy" id="privacy" required>
+				<span class="terms">
+					<label for="privacy">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
+					<a href="#">Leggi la privacy policy.</a>
+				</span>
+				<input type="submit" value="Iscriviti">
+			</form>
+		</div>
+	</aside>
+
+	<main id="contenuto" class="main-content">
+		<article class="content">
+			<h1>Lorem ipsum</h1>
+			<nav aria-labelledby="indice-contenuti" class="toc toc-in-content only-mobile">
+				<h2 id="indice-contenuti">Indice dei contenuti</h2>
+				<ul class="no-style">
+					<li><a href="#lorem-1">Lorem 1</a></li>
+					<li><a href="#lorem-2">Lorem 2</a></li>
+					<li><a href="#lorem-3">Lorem 3</a></li>
+					<li><a href="#lorem-4">Lorem 4</a></li>
+					<li><a href="#lorem-5">Lorem 5</a></li>
+				</ul>
+			</nav>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta, qui eius ratione quo est sapiente
+				soluta beatae possimus, tempore quam, rerum quibusdam quis provident deleniti odit perspiciatis cupiditate
+				asperiores.
+				Eligendi animi quibusdam magni itaque obcaecati, dolor repellendus reprehenderit placeat. Quas sequi saepe eius
+				alias doloribus iusto animi, atque vitae. Modi, cumque id blanditiis aliquid illum velit assumenda totam
+				repudiandae.
+				Ex, porro beatae? Dicta consequuntur pariatur, accusamus asperiores excepturi repudiandae quibusdam laudantium
+				odio saepe doloremque possimus ipsam, adipisci laboriosam. Sed cupiditate suscipit a minus earum esse eaque
+				sequi in numquam?</p>
+			<a href="#lorem-1">
+				<h2 id="lorem-1">Lorem 1</h2>
+			</a>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, facere delectus. Aut quo a vero. Sunt
+				deserunt ipsa vitae exercitationem aperiam, nemo quibusdam, at perferendis, architecto dicta magni quasi ex!
+				Enim nisi corrupti sed saepe veniam sapiente qui excepturi, labore cumque exercitationem soluta in ipsum modi
+				nesciunt recusandae assumenda, porro eos eligendi quidem. Eius facilis error ad asperiores, excepturi esse?</p>
+			<h3>Lorem 1.1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, necessitatibus excepturi ipsa esse sed
+				deserunt et suscipit ea vitae consequuntur adipisci perspiciatis nulla corporis! Ad numquam commodi dicta
+				debitis minus.
+				Dolore, natus dolores. Deserunt, repudiandae ipsa? Dolorum dolorem ut, ipsam ex possimus quibusdam veritatis
+				distinctio accusantium, adipisci repellendus laborum voluptatibus optio deleniti fugiat dolor. Alias iusto culpa
+				optio commodi cum?
+				Culpa a eveniet saepe sint nesciunt eligendi, iure dolores necessitatibus quas quaerat sit, ex eaque quo sunt
+				optio explicabo recusandae ipsa aliquam consectetur placeat omnis magni incidunt! Debitis, voluptate quas?</p>
+			<a href="#lorem-2">
+				<h2 id="lorem-2">Lorem 2</h2>
+			</a>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eos ab! Iste veritatis animi, totam recusandae
+				mollitia neque tempore, quo pariatur iure ex nam saepe debitis non quas. Dignissimos, deserunt.
+				Cum a consequatur nostrum quod autem obcaecati quisquam aliquid, quidem architecto minima illum quibusdam
+				voluptates incidunt eligendi ipsam velit dolores doloribus. Provident, culpa odit aspernatur voluptates tempora
+				tenetur laborum impedit.
+				Suscipit nam, debitis explicabo assumenda delectus, in labore, eaque quisquam praesentium maxime nesciunt at
+				fugit veritatis eius provident nobis nostrum sunt blanditiis eos ipsa. Quasi doloremque officiis veniam nisi
+				sit.
+				Numquam voluptas, beatae magnam aspernatur veniam natus atque consectetur cupiditate. Qui laboriosam dolorum
+				dolor animi! Corrupti dolor totam ad sint dolore iste quas magni praesentium expedita dolores eligendi, commodi
+				laudantium.</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptatibus odio exercitationem, quod
+				ullam nulla enim architecto adipisci iusto est culpa ipsa quae pariatur odit eius necessitatibus expedita.
+				Consectetur, maiores.</p>
+			<a href="#lorem-3">
+				<h2 id="lorem-3">Lorem 3</h2>
+			</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam neque, eum aperiam accusamus doloremque odio
+				odit incidunt inventore ex, explicabo natus? Vel magni temporibus, odio officia quam eius tenetur obcaecati?</p>
+			<p>Maiores ducimus blanditiis quaerat earum ipsum. Minima aspernatur ipsa ut tempore asperiores quas voluptatem,
+				dolorum corporis perspiciatis dolorem dicta commodi dolores mollitia maiores repellendus voluptatum odio
+				quibusdam, expedita, accusamus vel!</p>
+
+			<a href="#lorem-4">
+				<h2 id="lorem-4">Lorem 4</h2>
+			</a>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, sit a deserunt odit beatae praesentium
+				quibusdam nulla non placeat aut aliquid voluptatum cum obcaecati nobis molestias qui esse illo provident!</p>
+			<p>Voluptates adipisci harum voluptatum aliquam iusto. Nisi mollitia eos veniam impedit aliquid voluptatem laborum
+				sapiente maxime tempore ipsam. Aliquid quidem nam placeat tempore dolore est ullam quibusdam ex ipsam
+				dignissimos.</p>
+
+			<a href="#lorem-5">
+				<h2 id="lorem-5">Lorem 5</h2>
+			</a>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis, pariatur recusandae tempore eius
+				sed. Esse adipisci fugiat, omnis obcaecati ullam maxime, alias quis labore laudantium aliquid quibusdam dolores
+				consequuntur.</p>
+			<p>Libero voluptates nihil doloribus officiis, eveniet non laborum quod reiciendis ipsa a, quo temporibus saepe
+				eum! Ratione, distinctio! Ea quia repellat voluptatibus cupiditate nam tempore fuga ducimus sint. Harum,
+				adipisci!</p>
+
+		</article>
+	</main>
+
+	<footer class="site-footer">
+		<h2>Il sito di Manuel</h2>
+		<ul class="no-style social-links">
+			<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="il sito di Manuel su facebook"><svg
+						aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="1em"
+						viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+						<path
+							d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+					</svg></a></li>
+			<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="il sito di Manuel su X"><svg
+						aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="1em"
+						viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+						<path
+							d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+					</svg></a></li>
+			<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="il sito di Manuel su Instagram"><svg
+						aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="1em"
+						viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+						<path
+							d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+					</svg></a></li>
+			<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="il sito di Manuel su Pinterest"><svg
+						aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="1em"
+						viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+						<path
+							d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+				</a></li>
+		</ul>
+	</footer>
+
+</body>
+
+</html>
