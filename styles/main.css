@@ -179,7 +179,7 @@
 		translate: 0px;
 	}
 
-	body:has(.main-menu.open) {
+	body:has(.main-menu.open)::before {
 		animation: fade-in 0.3s ease-in-out both;
 		content: '';
 		position: fixed;
@@ -291,6 +291,10 @@
 		flex-direction: column;
 		gap: 16px;
 		overflow: hidden;
+	}
+
+	.card-immagine img.placeholder {
+		filter: blur(10px);
 	}
 
 	.card-immagine img {
@@ -485,12 +489,32 @@
 		border-radius: var(--border-radius);
 	}
 
+	input.error {
+		border-color: red;
+	}
+
 	.terms label {
 		display: inline;
 		font-weight: normal;
 	}
 
 	.terms a {
+		color: currentColor;
+	}
+
+	.form-status:empty {
+		display: none;
+	}
+
+	.form-status {
+		background-color: var(--primary-color-overlay);
+		color: var(--white);
+		border-radius: var(--border-radius);
+		margin-top: 16px;
+		padding: 16px;
+	}
+
+	.form-status a {
 		color: currentColor;
 	}
 

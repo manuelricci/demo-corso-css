@@ -5,12 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Il sito di Manuel</title>
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="style/main.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Podkova&family=Poppins:wght@400;700&display=swap"
 		rel="stylesheet">
+	<script src="script/critical.js" async></script>
+	<script type="module" src="script/script.js" defer></script>
 </head>
 
 <body>
@@ -19,16 +21,16 @@
 		<a href="/index.html" aria-label="home">
 			<img src="images/logo-placeholder.png" alt="logo" width="150" height="60" />
 		</a>
-		<a href="#principale" class="menu-toggle" aria-label="Apri il menu principale" aria-controls="principale"
+		<a href="#menu" class="menu-toggle" aria-label="Apre il menu principale" aria-controls="principale"
 			aria-expanded="false">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
 				class="w-6 h-6" aria-hidden="true" width="24" height="24">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 			</svg>
 		</a>
-		<nav aria-label="principale" id="principale" class="main-menu">
+		<nav aria-label="principale" class="main-menu">
 			<header class="only-mobile">
-				<a href="#principale" class="menu-toggle" aria-label="Chiudi il menu principale" aria-controls="principale"
+				<a href="#menu" class="menu-toggle" aria-label="Apre il menu principale" aria-controls="principale"
 					aria-expanded="false">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
 						stroke="currentColor" class="w-6 h-6" width="24" height="24">
@@ -49,7 +51,8 @@
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="images/img-full.jpg"
+						src="images/img-small.jpg" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -64,7 +67,8 @@
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -72,14 +76,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -87,14 +92,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -102,14 +108,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -117,14 +124,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -132,14 +140,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -147,14 +156,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -162,14 +172,15 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
 			<div class="article-wrapper">
 				<article class="card">
 					<div class="card-immagine">
-						<img src="https://source.unsplash.com/random/300x300" alt="" />
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
 					</div>
 					<div class="card-contenuto">
 						<h2>Lorem ipsum</h2>
@@ -177,7 +188,23 @@
 							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
 							cum
 							illo nisi rem.</p>
-						<a href="/articolo.html">Continua a leggere</a>
+						<a href="#">Continua a leggere</a>
+					</div>
+				</article>
+			</div>
+			<div class="article-wrapper">
+				<article class="card">
+					<div class="card-immagine">
+						<img data-src="https://source.unsplash.com/random/1024x1024"
+						src="https://source.unsplash.com/random/50x50" class="placeholder" alt="" />
+					</div>
+					<div class="card-contenuto">
+						<h2>Lorem ipsum</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio accusantium corporis, necessitatibus
+							voluptatem quas consequatur velit quibusdam facilis delectus aut sint. Pariatur doloremque nulla impedit
+							cum
+							illo nisi rem.</p>
+						<a href="#">Continua a leggere</a>
 					</div>
 				</article>
 			</div>
@@ -194,22 +221,24 @@
 	<aside class="sidebar">
 		<div class="widget widget-fixed">
 			<h2>Iscriviti alla newsletter</h2>
-			<form action="" autocomplete="off">
+			<form action="" autocomplete="off" novalidate class="newsletter-form">
 				<label for="nome">Nome</label>
-				<input type="text" name="nome" id="nome" pattern="[a-zA-Z\s]+" required />
+				<input type="text" name="nome" id="nome" pattern="[a-zA-Z\s]+" required aria-describedby="nome-error" />
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email" required />
-				<input type="checkbox" name="privacy" id="privacy" required>
+				<input type="email" name="email" id="email" required aria-describedby="email-error" />
+				<input type="checkbox" name="privacy" id="privacy" required aria-describedby="privacy-error">
 				<span class="terms">
 					<label for="privacy">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
 					<a href="#">Leggi la privacy policy.</a>
 				</span>
 				<input type="submit" value="Iscriviti">
 			</form>
+			<div class="form-status" role="alert"></div>
 		</div>
 	</aside>
 
 	<footer class="site-footer">
+
 		<h2>Il sito di Manuel</h2>
 		<ul class="no-style social-links">
 			<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="il sito di Manuel su facebook"><svg
