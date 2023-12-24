@@ -233,7 +233,7 @@
 		block-size: 24px;
 	}
 
-	@media (min-inline-size: 768px) {
+	@media (min-width: 768px) {
 		.menu-toggle {
 			display: none;
 		}
@@ -529,7 +529,7 @@
 		display: none;
 	}
 
-	@media (min-inline-size: 768px) {
+	@media (min-width: 768px) {
 		.only-mobile {
 			display: none;
 		}
@@ -542,7 +542,7 @@
 
 @layer override {
 
-	@media (min-inline-size: 1024px) {
+	@media (min-width: 1024px) {
 		body.article {
 			grid-template-areas: 'header header' 'aside main' 'footer footer';
 			grid-template-columns: 33% 1fr;
